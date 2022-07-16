@@ -22,9 +22,32 @@
 // =============================================================================
 // FUNCTIONS
 // =============================================================================
-// What Are Functions?
+// What Are Functions
+// Do not repeat yourself
+//function dosomething(){
+ //   console.log("Hello")
+  //  console.log("world")
+  //  console.log("!")}
+//dosomething();
+
+//let house = "dirty";
+//let trash = "full";
+//let dishes = "dirty";
+let floor= "dirty";
+
+
+function makeMyHouseClean() {
+ //   trash = "empty";
+   // dishes = "washed";
+    floor = "mopped";
+  
+   // if (trash === "empty" && dishes === "washed" && floor === "mopped") {
+    //  house = "clean"; } else {
+   //   house = "dirty"; }}
+
 // =============================================================================
 // Scope and Hoisting
+
 // =============================================================================
 // Log vs. Return
 // =============================================================================

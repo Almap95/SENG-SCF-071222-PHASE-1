@@ -3,6 +3,11 @@
 
 // let eri = "eri"
 // // JavaScript Types
+true 
+false
+
+console.log  (10 < 4)
+
 
 // // Variables
 
