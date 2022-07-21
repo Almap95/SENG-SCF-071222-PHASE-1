@@ -24,4 +24,39 @@
 
   BONUS: Allow for number inputs to be either String or Number
 */
-// Write your code here
+//Write your code
+function myCalculator1 (operator = "" , num1, num2 ) {
+ (operator = "" , num1, num2) {
+  if (operator === "+") {
+  return num1 + num2 }
+  else if (operator === "-") {
+  return num1 - num2}
+  else if (operator === "*") {
+  return num1 * num2}
+  else if (operator === "/") {
+  return num1 / num2 }
+  else if (operator === '^'){
+  return  num1 ^ num2}
+  else { 
+    console.log ("Please make sure to enter operator");
+    }
+
+
+
+  function myCalculator (operator = "" , num1, num2 ) 
+ switch (operator) {
+   case " + " :
+  return num1 + num2 
+    case " - " :
+  return num1 - num2
+    case " * " :
+    return num1 * num2 
+    case " / " :
+    return num1 / num2 
+    case "^" :
+    return num1 ^ num2 
+     default :
+      console.log ("Please enter operator")
+    }
+    myCalculator("+", 5, 2)
+    console.log (myCalculator("+", 5, 2));
