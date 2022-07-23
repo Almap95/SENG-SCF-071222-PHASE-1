@@ -40,13 +40,14 @@
 // =============================================================================
 // conditionals
 
-// if (classRoom === "open"){
-//    console.log("Go IN!")
-// } else if(haveKey){
-//     console.log("UnlockDoor!")
-// } else{
-//     console.log("GO Home!")
-// }
+if (classRoom === "open"){
+   console.log("Go IN!")
+} else if(haveKey){
+    console.log("UnlockDoor!")
+} else{
+    console.log("GO Home!")
+
+}
     
             // ternary 
             
@@ -59,7 +60,8 @@
 //     console.log("Go Home")
 // }
 // // Expression        ?      true           :        false
-// classRoom === "open" ? console.log("GoIn") : console.log("Go Home")
+//  classRoom === "open" ? console.log("GoIn") : console.log("Go Home")
+//  console.log ("GoIN")
 
 
 // =============================================================================
@@ -261,7 +263,3 @@ function makeMyHouseClean() {
 // }
 
 // anotherFoo(doSomething)
-
-
-
-
