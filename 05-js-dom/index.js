@@ -19,7 +19,7 @@ const imgUrl =
 // =============================================================================
 
 // Document Object Model
-const h1 = document.querySelector('.bounce') 
+//const h1 = document.querySelector('.bounce') 
 console.log(h1);
 
 
